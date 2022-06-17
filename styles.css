@@ -1,0 +1,87 @@
+/* .card-1{
+    float: right;
+} */
+html{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-image: url("bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #cccccc;
+    text-align: center;
+    align-items: center;
+    scroll-padding: 0;
+    
+}
+@media screen and (max-width: 576px) {
+    
+  .container{
+      /* float: right;
+      right: 176px; */
+      position: relative;
+      text-align: center;
+      align-items: center;
+  }
+}
+@media screen and (min-width: 1012px) {
+  .container{
+    float: right;
+    right: 164px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+}
+@media screen and (min-width:375px) and (max-width:1012px) {
+  .container{
+    float: right;
+    position: relative;
+  }
+}
+
+.card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .card-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .block-1{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #494bb6;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .block-2 {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .block:hover {
+    background-color: #ddd;
+    color: black;
+  }
